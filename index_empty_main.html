@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TestForte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.12.4/dist/css/bootstrap-select.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200..900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style_new.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif; color: #000000">
+  <!-- Navigation starts here -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid" ; style="background-color: #ffffff">
+      <a class="navbar-brand" href="./index.html"
+        style="color: #000000; font-size: 21px; font-weight: 700; font-family: 'Open Sans', sans-serif; padding: 10px 0 0 20px; border: transparent;">TestForte</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" ;
+        style="background-color: #ffffff; display: flex; justify-content: center; font-size: 16px; font-weight: bold">
+
+        <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Platform</a>
+                <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./online browser.html">
+                          <img src="./images/browser.svg" alt="browser icon" class="dropdown-icon">
+                          Online Browser Testing<p><span class="subtitle">Manual live-interactive cross browser
+                              testing</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./selenium.html">
+                          <img src="./images/selenium.png" alt="browser icon" class="dropdown-icon">
+                          Selenium Testing<p><span class="subtitle">Run Selenium scripts on cloud-based
+                              infrastructure</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./playwright.html">
+                          <img src="./images/playwright.png" alt="browser icon" class="dropdown-icon">
+                          PLaywright Testing<p><span class="subtitle">Run Playwright scripts on cloud-based
+                              infrastructure</span></p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./cypress.html">
+                          <img src="./images/cypress.png" alt="browser icon" class="dropdown-icon">
+                          Cypress Testing<p><span class="subtitle">Run Cypress scripts on cloud-based
+                              infrastructure</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./native-mobile.html">
+                          <img src="./images/native-mob.png" alt="browser icon" class="dropdown-icon">
+                          Native Mobile App Testing<p><span class="subtitle">Live-interactive app testing on Android and
+                              iOS devices</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="./automation-testing.html">
+                          <img src="./images/autotest.png" alt="browser icon" class="dropdown-icon">
+                          Automation Testing Cloud<p><span class="subtitle">Run automation test on a scalable
+                              cloud-based</span></p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 browsers-side">
+                      <div class="dropdown-browsers-item">
+                        <img width="210" height="210" src="./images/browsers-mob.png" alt="browsers-img icon"
+                          class="dropdown-browsers-logo" style="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-8 auto-side">
+                      <div class="dropdown-images-item">
+                        <a class="dropdown-images-item" href="./selenium.html">
+                          <img src="./images/selenium-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item" href="./playwright.html">
+                          <img src="./images/playwright-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item" href="./cypress.html">
+                          <img src="./images/cypress-logo.png" alt="browser logo" class="dropdown-logo">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 browsers-side">
+                      <div class="dropdown-browsers-item">
+                        <p><span style="color: #212529; font-weight: 300;">Powerful Test Automation Tool</span>
+                          <a class="dropdown-browsers" href="#" style="text-decoration: none;">
+                        </p>
+                        <p style="padding-bottom: 30px"><span class="subtitle-go"
+                            style="color: #00aeef; font-weight: 100; font-size: 15px;">Get Started with TestForte <img
+                              src="./images/arrow_left.png" style="width: 17px;"></span></p></a>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Resources</a>
+                <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/cast.svg" alt="browser icon" class="dropdown-icon">
+                          Blog<p><span class="subtitle">Blogs on Selenium automation testing, CI/CD, and more</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/mic.svg" alt="browser icon" class="dropdown-icon">
+                          Webinars<p><span class="subtitle">Blogs on Selenium automation testing, CI/CD, and more</span>
+                          </p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/camera-video.svg" alt="browser icon" class="dropdown-icon">
+                          Videos<p><span class="subtitle">Video tutorials around automation testing and TestForte</span>
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/file-etext-fill.svg" alt="browser icon"
+                            class="dropdown-icon">
+                          Documentation<p><span class="subtitle">Step-by-step guides to get started with
+                              TestForte</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/file-lock.svg" alt="browser icon" class="dropdown-icon">
+                          API<p><span class="subtitle">Extract, delete & modify data in bulk using TestForte API</span>
+                          </p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/people-fill.svg" alt="browser icon" class="dropdown-icon">
+                          Community and Support<p><span class="subtitle">Connect, ask & learn with tech-savvy
+                              folks</span></p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 col-4-resources-right-side">
+                      <div class="dropdown-browsers-item-resources-right-side">
+                        <img width="150" height="230" src="./images/res-img.png" alt="browsers-img icon"
+                          class="dropdown-browsers-logo">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-8 auto-side col-8-resources-right-side">
+                      <div class="dropdown-images-item-resources">
+                        <a class="dropdown-images-item-resources" href="#">
+                          <img src="./images/videos-img.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item-resources" href="#">
+                          <img src="./images/webinar.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item-resources" href="#">
+                          <img src="./images/docs-img.png" alt="browser logo" class="dropdown-logo">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 col-4-resources-right-side">
+                      <div class="dropdown-browsers-item" id="rsr-right-side">
+                        <p><span style="color: #212529; font-weight: 300;">Enhance TestForte's Novelty</span>
+                          <a class="dropdown-browsers" href="#" style="text-decoration: none;">
+                        </p>
+                        <p style="padding-bottom: 30px"><span class="subtitle-go"
+                            style="color: #00aeef; font-weight: 100; font-size: 15px;">Learn now with TestForte <img
+                              src="./images/arrow_left.png" style="width: 17px;"></span></p></a>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Developers</a>
+                <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/selenium.png" alt="browser icon" class="dropdown-icon">
+                          Selenium<p><span class="subtitle">Connect, ask & learn with tech-savvy folks</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/native-mob.png" alt="browser icon" class="dropdown-icon">
+                          Mobile App Testing<p><span class="subtitle">Test native apps on 50+ devices</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/autotest.png" alt="browser icon" class="dropdown-icon">
+                          Real Time Web Testing<p><span class="subtitle">Test websites or web apps on 3000+
+                              browsers</span></p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/changelog-img.svg" alt="browser icon" class="dropdown-icon">
+                          Changelog<p><span class="subtitle">Test websites or web apps on 3000+ browsers</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/file-etext-fill.svg" alt="browser icon"
+                            class="dropdown-icon">
+                          Documentation<p><span class="subtitle">Step-by-step guides to get started with
+                              TestForte</span></p>
+                        </a>
+                      </div>
+                      <div class="dropdown-parent-item">
+                        <a class="dropdown-item" href="#">
+                          <img src="./images/Resources-icons/file-lock.svg" alt="browser icon" class="dropdown-icon">
+                          API<p><span class="subtitle">Extract, delete & modify data in bulk using TestForte API</span>
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 developers-side">
+                      <div class="dropdown-developers-item">
+                        <img width="200" height="200" src="./images/Follco-8.png" alt="browsers-img icon"
+                          class="dropdown-browsers-logo">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-8 auto-side col-8-developers">
+                      <div class="dropdown-images-item-developers">
+                        <a class="dropdown-images-item-developers" href="#">
+                          <img src="./images/changelog-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item-developers" href="#">
+                          <img src="./images/Testforte__img.png" alt="browser logo" class="dropdown-logo"></a>
+                        <a class="dropdown-images-item-developers" href="#">
+                          <img src="./images/selenium-logo.png" alt="browser logo" class="dropdown-logo">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-4 developers-side">
+                      <div class="dropdown-developers-item">
+                        <p><span style="color: #212529; font-weight: 300;">Discover more Incredible Tools</span>
+                          <a class="dropdown-browsers" href="#" style="text-decoration: none;">
+                        </p>
+                        <p style="padding-bottom: 30px"><span class="subtitle-go"
+                            style="color: #00aeef; font-weight: 100; font-size: 15px;">Get Started with TestForte <img
+                              src="./images/arrow_left.png" style="width: 17px;"></span></p></a>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+      <ul class="navbar-right-items">
+        <button>
+          <img width="24" height="26" src="./images/usa.png" alt="usa">
+        </button>
+        <button id="login-icon">
+          <img width="24" height="24" src="./images/login-icon.png" alt="profile">
+        </button>
+      </ul>
+      <div id="background-overlay" class="overlay"></div>
+      <!-- Login/Register starts here -->
+
+      <div class="section" id="login-section">
+        <div class="container-login">
+          <div class="welcome">
+            <button id="close-button" class="close-button"></button>
+            <div class="pinkbox">
+              <div class="signup nodisplay">
+                <h1 style="color: #5F7D95;">register</h1>
+                <form autocomplete="off">
+                  <input type="text" placeholder="username">
+                  <input type="email" placeholder="email">
+                  <input type="password" placeholder="password">
+                  <input type="password" placeholder="confirm password">
+                  <button class="button-login2 submit">create account </button>
+                </form>
+              </div>
+              <div class="signin">
+                <h1 style="color: #5F7D95;">sign in</h1>
+                <form class="more-padding" autocomplete="off">
+                  <input type="text" placeholder="username">
+                  <input type="password" placeholder="password">
+                  <div class="checkbox">
+                    <input type="checkbox" id="remember" /><label for="remember">remember me</label>
+                  </div>
+
+                  <button class="button-login2 submit">login</button>
+                </form>
+              </div>
+            </div>
+            <div class="leftbox">
+              <h2 class="title-login"><span>TestForte</span><br></h2>
+              <p class="desc">make your test accurate <span></span></p>
+              <img class="flower smaller" src="./images/set-objects.jpg" alt="1357d638624297b"
+                style="border-radius: 10px;">
+              <p class="account">have an account?</p>
+              <button class="button-login2" id="signin">login</button>
+            </div>
+            <div class="rightbox">
+              <h2 class="title-login"><span>TestForte</span><br></h2>
+              <p class="desc"> ensure QA leadership <span></span></p>
+              <img class="flower" src="./images/set-objects2.jpg"
+                style="border-radius: 10px; width: 110px; height: 110px;">
+              <p class="account">don't have an account?</p>
+              <button class="button-login2" id="signup">sign up</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Login/Register ends here -->
+    </div>
+  </nav>
+
+  <!-- Navigation ends here -->
+  <!-- Main page title -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.12.4/dist/js/bootstrap-select.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    document.getElementById('login-button').addEventListener('click', function () {
+      var loginSection = document.getElementById('login-section');
+      if (loginSection.style.display === 'none' || loginSection.style.display === '') {
+        loginSection.style.display = 'block';
+      } else {
+        loginSection.style.display = 'none';
+      }
+    });
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.nav-item.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+      }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+      });
+    });
+    $('#signup').click(function () {
+      $('.pinkbox').css('transform', 'translateX(80%)');
+      $('.signin').addClass('nodisplay');
+      $('.signup').removeClass('nodisplay');
+    });
+
+    $('#signin').click(function () {
+      $('.pinkbox').css('transform', 'translateX(0%)');
+      $('.signup').addClass('nodisplay');
+      $('.signin').removeClass('nodisplay');
+    });
+    // script.js
+    document.addEventListener('DOMContentLoaded', function () {
+      const loginIcon = document.getElementById('login-icon');
+      const loginSection = document.getElementById('login-section');
+      const backgroundOverlay = document.getElementById('background-overlay');
+      const closeButton = document.getElementById('close-button');
+
+      // Function to show the login section and overlay
+      function showLoginSection() {
+        loginSection.style.display = 'block';
+        backgroundOverlay.style.display = 'block';
+      }
+
+      // Function to hide the login section and overlay
+      function hideLoginSection() {
+        loginSection.style.display = 'none';
+        backgroundOverlay.style.display = 'none';
+      }
+
+      // Event listener for login icon button
+      loginIcon.addEventListener('click', showLoginSection);
+
+      // Event listener for close button
+      closeButton.addEventListener('click', hideLoginSection);
+
+      // Event listener for clicking outside the login section
+      backgroundOverlay.addEventListener('click', hideLoginSection);
+    });
+
+  </script>
+  <style>
+    .dropdown-toggle::after {
+      display: none;
+    }
+
+    .container-fluid {
+      padding: 0px 24px;
+      color: #212529;
+      text-shadow: 0.1px 0.1px;
+      font-size: 21px;
+    }
+
+    .navbar-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar {
+
+      border-bottom: 1px solid #e9ecef;
+      background-color: #ffffff;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: #4c5258;
+      font-weight: bold;
+      
+      font-size: 16px;
+    }
+
+    .dropdown-menu {
+      width: 1250px !important;
+      height: 330px !important;
+      font-size: 18px;
+      border-radius: 10px !important;
+      overflow: hidden;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 100%;
+      padding: 0px 0px;
+
+    }
+
+    .subtitle {
+      font-size: 15px;
+    }
+
+    .dropdown-parent-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img.dropdown-icon {
+      width: 25px;
+      /* Adjust the size as needed */
+      height: 25px;
+      /* Adjust the size as needed */
+      margin-right: 8px;
+      /* Space between icon and text */
+      align-content: center;
+      overflow: hidden;
+    }
+
+    .dropdown-item {
+      padding: 10px 30px;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #E8F9FF;
+      color: #00aeef;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    img.dropdown-logo {
+      width: 185px;
+      height: auto;
+      margin-right: 8px;
+      align-content: center;
+      overflow: hidden;
+      padding: 0 20px;
+    }
+
+    div>.dropdown-images-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: #F6F8F9;
+      padding: 0 20px;
+
+    }
+
+    .dropdown-images-item a:hover {
+      background-color: #F6F8F9;
+      color: #F6F8F9;
+      border-bottom: transparent 3px solid;
+    }
+
+    .dropdown-browsers-item a:hover {
+      background-color: transparent;
+      color: #00aeef;
+    } 
+
+    .browsers-side {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F6F8F9;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .col-8 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: #F6F8F9;
+      padding: 0 0px;
+    }
+
+    .col-4 {
+      padding-top: 12px;
+      padding-left: 0px;
+      padding-right: 0;
+    }
+
+    div>.col-4>.dropdown-browsers-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #F6F8F9;
+    }
+
+    .navbar-right-items {
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+    }
+
+    button {
+      background: transparent;
+      border: none;
+    }
+
+    .dropdown-browsers-item-resources-right-side,
+    .resources-right-side {
+      background-color: #F6F8F9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .col-8-resources-right-side,
+    .dropdown-images-item-resources {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: #F6F8F9;
+      padding: 0 0px;
+    }
+
+    .col-4-resources-right-side,
+    #rsr-right-side {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: #F6F8F9;
+    }
+
+    .dropdown-images-item-resources a:hover {
+      background-color: #F6F8F9;
+      color: #F6F8F9;
+      border-bottom: transparent 3px solid;
+    }
+
+    .dropdown-developers-item,
+    .developers-side {
+      background-color: #F6F8F9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .col-8-developers,
+    .dropdown-images-item-developers {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: #F6F8F9;
+      padding: 0 20px;
+    }
+
+    .dropdown-images-item-developers a:hover {
+      background-color: #F6F8F9;
+      color: #F6F8F9;
+      border-bottom: transparent 3px solid;
+    }
+  </style>
+</body>
+
+</html>

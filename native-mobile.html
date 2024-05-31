@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TestForte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.12.4/dist/css/bootstrap-select.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style_native-mobile.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+</head>
+
+<body style="font-family: Inter, Arial,'Open Sans', sans-serif; color: #000000">
+ <!-- Navigation starts here -->
+ <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container-fluid" ; style="background-color: #ffffff">
+    <a class="navbar-brand" href="./index.html"
+      style="color: #000000; font-size: 21px; font-weight: 700; font-family: 'Open Sans', sans-serif; padding: 10px 0 0 20px; border: transparent;">TestForte</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" ;
+      style="background-color: #ffffff; display: flex; justify-content: center; font-size: 16px; font-weight: bold">
+
+      <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Platform</a>
+              <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./online browser.html">
+                        <img src="./images/browser.svg" alt="browser icon" class="dropdown-icon">
+                        Online Browser Testing<p><span class="subtitle">Manual live-interactive cross browser
+                            testing</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./selenium.html">
+                        <img src="./images/selenium.png" alt="browser icon" class="dropdown-icon">
+                        Selenium Testing<p><span class="subtitle">Run Selenium scripts on cloud-based
+                            infrastructure</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./playwright.html">
+                        <img src="./images/playwright.png" alt="browser icon" class="dropdown-icon">
+                        PLaywright Testing<p><span class="subtitle">Run Playwright scripts on cloud-based
+                            infrastructure</span></p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./cypress.html">
+                        <img src="./images/cypress.png" alt="browser icon" class="dropdown-icon">
+                        Cypress Testing<p><span class="subtitle">Run Cypress scripts on cloud-based
+                            infrastructure</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./native-mobile.html">
+                        <img src="./images/native-mob.png" alt="browser icon" class="dropdown-icon">
+                        Native Mobile App Testing<p><span class="subtitle">Live-interactive app testing on Android and
+                            iOS devices</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="./automation-testing.html">
+                        <img src="./images/autotest.png" alt="browser icon" class="dropdown-icon">
+                        Automation Testing Cloud<p><span class="subtitle">Run automation test on a scalable
+                            cloud-based</span></p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 browsers-side">
+                    <div class="dropdown-browsers-item">
+                      <img width="210" height="210" src="./images/foguete-2.png" alt="browsers-img icon"
+                        class="dropdown-browsers-logo" style="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-8 auto-side">
+                    <div class="dropdown-images-item">
+                      <a class="dropdown-images-item" href="./selenium.html">
+                        <img src="./images/selenium-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item" href="./playwright.html">
+                        <img src="./images/playwright-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item" href="./cypress.html">
+                        <img src="./images/cypress-logo.png" alt="browser logo" class="dropdown-logo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 browsers-side">
+                    <div class="dropdown-browsers-item">
+                      <p><span style="color: #212529; font-weight: 300;">Powerful Test Automation Tool</span></p>
+                      <a class="icon-link icon-link-hover dropdown-browsers" href="#" style="--bs-link-hover-color-rgb: 0, 174, 239;">
+                        <p style="padding-bottom: 30px; display: inline; margin: 0;">
+                          <span class="subtitle-go" style="color: #00aeef; font-weight: 100; font-size: 15px;">
+                            Get Started with TestForte 
+                          </span>
+                        </p>
+                        <svg class="bi" aria-hidden="true">
+                          <use xlink:href="#arrow-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Resources</a>
+              <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/cast.svg" alt="browser icon" class="dropdown-icon">
+                        Blog<p><span class="subtitle">Blogs on Selenium automation testing, CI/CD, and more</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/mic.svg" alt="browser icon" class="dropdown-icon">
+                        Webinars<p><span class="subtitle">Blogs on Selenium automation testing, CI/CD, and more</span>
+                        </p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/camera-video.svg" alt="browser icon" class="dropdown-icon">
+                        Videos<p><span class="subtitle">Video tutorials around automation testing and TestForte</span>
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/file-etext-fill.svg" alt="browser icon"
+                          class="dropdown-icon">
+                        Documentation<p><span class="subtitle">Step-by-step guides to get started with
+                            TestForte</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/file-lock.svg" alt="browser icon" class="dropdown-icon">
+                        API<p><span class="subtitle">Extract, delete & modify data in bulk using TestForte API</span>
+                        </p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/people-fill.svg" alt="browser icon" class="dropdown-icon">
+                        Community and Support<p><span class="subtitle">Connect, ask & learn with tech-savvy
+                            folks</span></p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 col-4-resources-right-side">
+                    <div class="dropdown-browsers-item-resources-right-side">
+                      <img width="230" height="200" src="./images/webinars-videos.png" alt="browsers-img icon"
+                        class="dropdown-browsers-logo">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-8 auto-side col-8-resources-right-side">
+                    <div class="dropdown-images-item-resources">
+                      <a class="dropdown-images-item-resources" href="#">
+                        <img src="./images/videos-img.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item-resources" href="#">
+                        <img src="./images/webinar.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item-resources" href="#">
+                        <img src="./images/docs-img.png" alt="browser logo" class="dropdown-logo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 col-4-resources-right-side">
+                    <div class="dropdown-browsers-item" id="rsr-right-side">
+                      <p><span style="color: #212529; font-weight: 300;">Enhance TestForte's Novelty</span></p>
+                        <a class="icon-link icon-link-hover dropdown-browsers" href="#" style="--bs-link-hover-color-rgb: 0, 174, 239;">
+                          <p style="padding-bottom: 30px; display: inline; margin: 0;">
+                            <span class="subtitle-go" style="color: #00aeef; font-weight: 100; font-size: 15px;">
+                              Learn Now with TestForte 
+                            </span>
+                          </p>
+                          <svg class="bi" aria-hidden="true">
+                            <use xlink:href="#arrow-right"></use>
+                          </svg>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Developers</a>
+              <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/selenium.png" alt="browser icon" class="dropdown-icon">
+                        Selenium<p><span class="subtitle">Connect, ask & learn with tech-savvy folks</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/native-mob.png" alt="browser icon" class="dropdown-icon">
+                        Mobile App Testing<p><span class="subtitle">Test native apps on 50+ devices</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/autotest.png" alt="browser icon" class="dropdown-icon">
+                        Real Time Web Testing<p><span class="subtitle">Test websites or web apps on 3000+
+                            browsers</span></p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/changelog-img.svg" alt="browser icon" class="dropdown-icon">
+                        Changelog<p><span class="subtitle">Test websites or web apps on 3000+ browsers</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/file-etext-fill.svg" alt="browser icon"
+                          class="dropdown-icon">
+                        Documentation<p><span class="subtitle">Step-by-step guides to get started with
+                            TestForte</span></p>
+                      </a>
+                    </div>
+                    <div class="dropdown-parent-item">
+                      <a class="dropdown-item" href="#">
+                        <img src="./images/Resources-icons/file-lock.svg" alt="browser icon" class="dropdown-icon">
+                        API<p><span class="subtitle">Extract, delete & modify data in bulk using TestForte API</span>
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 developers-side">
+                    <div class="dropdown-developers-item">
+                      <img width="300" height="200" src="./images/developers-image.png" alt="browsers-img icon"
+                        class="dropdown-browsers-logo">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-8 auto-side col-8-developers">
+                    <div class="dropdown-images-item-developers">
+                      <a class="dropdown-images-item-developers" href="#">
+                        <img src="./images/changelog-logo.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item-developers" href="#">
+                        <img src="./images/Testforte__img.png" alt="browser logo" class="dropdown-logo"></a>
+                      <a class="dropdown-images-item-developers" href="#">
+                        <img src="./images/selenium-logo.png" alt="browser logo" class="dropdown-logo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4 developers-side">
+                    <div class="dropdown-developers-item dropdown-browsers-item">
+                      <p><span style="color: #212529; font-weight: 300;">Discover more Incredible Tools</span></p>
+                        <a class="icon-link icon-link-hover dropdown-browsers" href="#" style="--bs-link-hover-color-rgb: 0, 174, 239;">
+                          <p style="padding-bottom: 30px; display: inline; margin: 0;">
+                            <span class="subtitle-go" style="color: #00aeef; font-weight: 100; font-size: 15px;">
+                              Get Started with TestForte 
+                            </span>
+                          </p>
+                          <svg class="bi" aria-hidden="true">
+                            <use xlink:href="#arrow-right"></use>
+                          </svg>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <ul class="navbar-right-items">
+      <button>
+        <img width="24" height="26" src="./images/usa.png" alt="usa">
+      </button>
+      <button id="login-icon">
+        <img width="24" height="24" src="./images/login-icon.png" alt="profile">
+      </button>
+    </ul>
+    <div id="background-overlay" class="overlay"></div>
+    <!-- Login/Register starts here -->
+
+    <div class="section" id="login-section">
+      <div class="container-login">
+        <div class="welcome">
+          <button id="close-button" class="close-button"></button>
+          <div class="pinkbox">
+            <div class="signup nodisplay">
+              <h1 style="color: darkblue;">register</h1>
+              <form autocomplete="off">
+                <input type="text" placeholder="username">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="confirm password">
+                <button class="button-login2 submit">create account </button>
+              </form>
+            </div>
+            <div class="signin">
+              <h1 style="color: darkblue">sign in</h1>
+              <form class="more-padding" autocomplete="off">
+                <input type="text" placeholder="username">
+                <input type="password" placeholder="password">
+                <div class="checkbox">
+                  <input type="checkbox" id="remember" /><label for="remember">remember me</label>
+                </div>
+
+                <button class="button-login2 submit">login</button>
+              </form>
+            </div>
+          </div>
+          <div class="leftbox">
+            <h2 class="title-login"><span>TestForte</span><br></h2>
+            <p class="desc">make your test accurate <span></span></p>
+            <img class="flower smaller" src="./images/set-objects.jpg" alt="1357d638624297b"
+              style="border-radius: 10px;">
+            <p class="account">have an account?</p>
+            <button class="button-login2" id="signin">login</button>
+          </div>
+          <div class="rightbox">
+            <h2 class="title-login"><span>TestForte</span><br></h2>
+            <p class="desc"> ensure QA leadership <span></span></p>
+            <img class="flower" src="./images/set-objects2.jpg"
+              style="border-radius: 10px; width: 110px; height: 110px;">
+            <p class="account">don't have an account?</p>
+            <button class="button-login2" id="signup">sign up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Login/Register ends here -->
+  </div>
+</nav>
+
+  <!-- Navigation ends here -->
+  <!-- Main page title -->
+ <!-- Main page title end-->
+  <!-- First block-->
+<div data-case="contents72" class="userEL16355881">
+  <div class="container-fluid full-width">
+    <div class="row" data-leftright="true">
+      <div class="col-xs-12 col-sm-6 col-md-6 img-column col-sm-push-6 col-md-push-6">
+        <div class="image-wrap">
+          <img
+            src="./images/native-mobile/Group 1976 (5).png"
+            class="img-responsive" data-attach="true" alt="Group_1976_(5).png">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 txt-column col-sm-pull-6 col-md-pull-6">
+        <div class="text-wrap">
+          <div data-edit="true" data-selector=".cl_caption" class="cl_caption">
+            <div><span style="font-family: Raleway; color: rgb(51, 51, 51);" class="fsize60">​</span><span
+                style="font-family: Raleway;" class="fsize60"><br></span></div><br><br><br><br>
+            <div><span style="font-family: Raleway; color: rgb(0, 0, 0); font-weight: 500; font-size: 63px;" class="fsize60">Real Devices
+                Farm</span></div>
+            <div><span style="font-family: Lato; color: rgb(136, 136, 136);" class="fsize14"><br></span></div>
+            <div style="font-family: 'Open sans'; color: rgb(41, 41, 41); padding-right: 90px;"><span  class="fsize20">Testing your applications
+                on real devices ensures quality and reduces operational costs. TestForte serves as your reliable
+                platform for various types of test executions.</span></div>
+            <div><span style="font-family: 'Open sans'; color: rgb(0, 0, 0);" class="fsize20">​</span><br></div>
+            <div><span style="font-family: 'Open sans'; color: rgb(0, 0, 0);" class="fsize20">​</span><br></div>
+            ‌<div><button class="custom-btn btn-3" style="text-align: center"><span>See More Devices</span></button></div>‌
+            <div><br></div>
+            <div><span style="font-family: Lato; color: rgb(136, 136, 136);" class="fsize14"><br></span></div>
+            <div><span style="font-family: Roboto; font-weight: 700;">&zwnj;&zwnj;Android and iOS Smartphones</span>
+            </div>
+            <div><span class="no-select"><img width="800"
+                  src="./images/native-mobile/Group 1987 (2).png"
+                  alt="Group_1987_(2).png" class="fr-fic fr-dib"></span></div>
+            <div><br></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Second block-->
+<div data-case="storageEL17569" class="userEL16355888">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="cl_caption" data-edit="true" data-selector=".cl_caption">
+          <div style="text-align: center;line-height: 1.8;"><span style="color: rgb(0, 0, 0); font-family: 'Open sans' ; font-size: 15px;"
+              class="fsize15">Any App | Any Device | Any OS</span></div>
+          <div style="text-align: center;"><span style="font-family: Lora; color: rgb(0, 0, 0);"
+              class="fsize34">​</span><span style="font-family: Lora; font-size: 34px;" class="fsize34">Native App Testing on Real
+              Device</span></div>
+          <div style="text-align: center; line-height: 1.2;"><br></div>
+          <div style="text-align: center; line-height: 1.2;"><span
+              style="color: rgb(134, 134, 139); font-family: 'Open sans';" class="fsize14"></span></div>
+          <div style="text-align: center; line-height: 1.6;"><span
+              style="color: rgb(14, 14, 14); font-family: 'Open sans'; font-weight: 500; font-size: 16px;" class="fsize16">Ensure proper
+              testing and monitoring on all stages of App development</span></div>
+          <div style="text-align: center; line-height: 1.2;"><br></div>
+          <div style="text-align: center;">
+            ‌<div><button class="custom-btn btn-3" style="text-align: center"><span>See More Devices</span></button></div>‌
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--third block-->
+<div data-case="contents14" class="userEL16355952">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 img-wrapper">
+        <div class="image-wrap">
+          <img
+            src="./images/native-mobile/Group 1986 (1).png"
+            class="img-responsive" data-attach="true" alt="Group_1986_(1).png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--block 4-->
+<div data-case="contents122" class="userEL16355960">
+  <div class="container-fluid full-width">
+    <div class="row" data-leftright="true">
+      <div class="col-xs-12 col-sm-6 col-md-6 img-column">
+        <div class="image-box">
+          <img
+            src="./images/native-mobile/Group 1976 (3).png"
+            class="img-responsive" data-attach="true" alt="Group_1976_(3).png">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 txt-column">
+        <div class="cl_caption" data-selector=".cl_caption" data-edit="true" style="font-weight: normal;">
+          <div><span style="color: rgb(40, 50, 78); font-family: Lora;"><span class="fsize15">REMOTE TEST &amp;
+                AUTOMATION</span></span></div>
+          <div><span style="font-family: 'Playfair'; font-weight: 400; color: rgb(40, 50, 78); font-size: 50px;">Test
+              Automation on real smartphones</span></div><br>
+              <p class="text-justify">
+          <div id="isPasted" style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style="color: rgb(40, 50, 78); font-family: 'Noto Sans KR';"><strong><p class="text-justify">Accurate Simulation:</strong></span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;"> Real devices provide a more accurate simulation of user experience
+                compared to emulators or simulators.</p></span></span></div>
+          <div style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style=" color: rgb(40, 50, 78); font-family: 'Noto Sans KR';"><p class="text-justify"><strong>Hardware Compatibility: </strong>&nbsp;</span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;">Testing on real devices ensures compatibility with various hardware
+                configurations, such as screen sizes, resolutions, and sensors.</p></span></span></div>
+          <div style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style="color: rgb(40, 50, 78);"><p class="text-justify"><strong>Performance Testing: </strong></span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;">Real devices allow for more accurate performance testing, including
+                CPU, memory, and battery usage.</p></span></span></div>
+          <div style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style="color: rgb(40, 50, 78);"><p class="text-justify"><strong>User Experience: </strong>User Experience:</span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;">Real devices provide insights into the actual user experience,
+                including touch responsiveness, gestures, and navigation.</p></span></span></div>
+          <div style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style="color: rgb(40, 50, 78);"><p class="text-justify"><strong>Regression Testing: </strong></span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;">Real devices are essential for regression testing to ensure that new
+                updates or features do not break existing functionality.</p></span></span></div>
+          <div style="line-height: 1.6;"><span style="font-family: 'Noto Sans KR';" class="fsize18"><span
+                style="color: rgb(40, 50, 78);"><p class="text-justify"><strong>Customer Satisfaction: </strong></span><span
+                style="color: rgb(40, 50, 78); font-size: 20px;">By testing on real devices, you can ensure a higher quality of
+                your application, leading to improved customer satisfaction and retention.</span></span></div></p>
+          <div><span class="fsize13"><span
+                style="color: rgb(153, 153, 153);font-family:'Lato', 'Playfair';"><br></span></span></div>
+          <div><span class="fsize13"><span
+                style="color: rgb(153, 153, 153);font-family:'Lato', 'Nanum Gothic';"></span></span></div>
+                <div><button class="custom-btn btn-3" style="text-align: center"><span>View More</span></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--block 5-->
+<div data-layout="false" data-playtype="true" data-case="video8" class="userEL16355886 ">
+  <input class="lyoption" type="hidden" data-lycol="2" data-lycol-t="2" data-lycol-m="1" data-lypd="15" data-lyh="0.6"
+    data-lyw="100">
+  <div class="container-fluid" style="padding: 0 200px;">
+    <div class="row" data-clone-min="1" data-clone-loop="true" data-clone-max="1" data-clone-type="ctext"
+      data-clone-type2="addinput" data-clone-orgcol="1,1,1" data-child="1">
+      <div class="col-xs-12 col-sm-6 col-md-6 img-column" style="padding: 50px 100px 0 0;">
+        <div data-edit="true" data-selector=".text" class="text">
+          <div><span class="fsize40"><span style="font-family: Roboto, 'Nanum Gothic'; color: rgb(0, 0, 0); font-size: 40px;">Test your
+                website and application on real devices</span></span></div>
+          <div><span class="fsize13"><span style="font-family:'Roboto','Nanum Gothic';"><span
+                  style="color: rgb(153, 153, 153);">​</span></span></span><br></div>
+          <div id="isPasted"><span style="font-family: Roboto; color: rgb(0, 0, 0); font-size: 20px;" class="fsize20">You can test not
+              only on one device but on multiple devices in parallel mode and by executing cross browser testing with
+              native application testing</span></div>
+          <div><span style="font-family: Roboto; color: rgb(0, 0, 0);" class="fsize20">​</span><br></div>
+          <div>
+            <div><button class="custom-btn btn-3" style="text-align: center"><span>All Devices List</span></button></div>
+          </div>
+          <div><br></div>
+          <div><span class="fsize13"><span style="font-family:'Roboto','Nanum Gothic';"><span
+                  style="color: rgb(153, 153, 153);">​</span></span></span><br></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 img-column" style="padding: 0 100px 0 0;">
+        <div> <img src="./images/image-290.png"> </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+ <!-- Ccommon block -->
+<div data-parallax="false" data-case="contents98" class="userEL16248093">
+  <div class="container text-center justify-content-center">
+
+    <div class="row text-center" data-matrix-loop="true" data-matrix-column="3">
+     
+      <div class="col-xs-12 col-sm-4 col-md-4 item ">
+        <a class="card-m" href="#"  style="text-decoration: none;">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img src="./images/image_338.png" width="250" class="img-responsive"
+            data-attach="true">
+        </div>
+        <div data-edit="true" data-selector=".cl_caption" class="cl_caption">
+          <div><span style="color: rgb(251, 64, 69); font-size: 20px;"><span class="fsize20"><strong><span
+                    style="font-family: 'Noto Sans KR';">More Services</span></strong></span></span></div>
+          <div style="line-height:1;"><span style="color: rgb(255, 255, 255);"><span
+                style="font-family:'Lato', 'Nanum Gothic';"><span class="fsize13"><br></span></span></span></div>
+          <div style="padding: 0 50px;"><span style="color: rgb(40, 50, 78);"><span
+                style="font-family:'Lato', 'Nanum Gothic'; font-size: 15px;"><span class="fsize13">TestForte offers
+                  diverse testing tools and instruments. Check out for
+                  features</span></span></span></div>
+        </div>
+      </a>
+      </div>   
+      <div class="col-xs-12 col-sm-4 col-md-4 item">
+        <a class="card-m" href="#"  style="text-decoration: #000000;">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img src="./images/browser-rocket.png" class="img-responsive"  style="padding-top: 20px;"
+            data-attach="true">
+        </div>
+        <div data-edit="true" data-selector=".cl_caption" class="cl_caption">
+          <div><span style="color: rgb(251, 64, 69); font-size: 20px;"><span class="fsize20"><strong><span
+                    style="font-family: 'Noto Sans KR';">Web Browser Testing</span></strong></span></span></div>
+          <div style="line-height:1;"><span style="color: rgb(255, 255, 255);"><span
+                style="font-family:'Lato', 'Nanum Gothic';"><span class="fsize13"><br></span></span></span></div>
+          <div style="padding: 0 50px;"><span style="color: rgb(40, 50, 78);"><span
+                style="font-family:'Lato', 'Nanum Gothic';font-size: 15px; "><span class="fsize13">Try Web Cross
+                  Browser Testing. TestForte integrated its services with Selenium,
+                  Cypress, Playwright and more&nbsp;</span></span></span></div>
+        </div>
+      </a>
+      </div>
+    
+      <div class="col-xs-12 col-sm-4 col-md-4 item">
+        <a class="card-m" href="#"  style="text-decoration: none;">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img src="./images/3d_design.png" width="250" class="img-responsive" style="padding-top: 20px;"
+            data-attach="true">
+        </div>
+        <div data-edit="true" data-selector=".cl_caption" class="cl_caption">
+          <div><span style="color: rgb(251, 64, 69); font-size: 20px;"><span class="fsize20"><strong><span
+                    style="font-family: 'Noto Sans KR';">Documentation</span></strong></span></span></div>
+          <div style="line-height:1;"><span style="color: rgb(71, 85, 119);"><span
+                style="font-family:'Lato', 'Nanum Gothic';"><span class="fsize13"><br></span></span></span></div>
+          <div style="padding: 0 50px;"><span style="color: rgb(40, 50, 78);"><span
+                style="font-family:'Lato', 'Nanum Gothic'; font-size: 15px;"><span class="fsize13">Check out our
+                  Documentation and get closer to
+                  TestForte's resources. Make yourself a testing professional</span></span></span></div>
+        </div>
+      </a>
+      </div>
+    
+    </div>
+  </div>
+</div>
+ <!--common block 1-->
+ <div data-case="contents138" class="userEL16248306">
+  <div class="container">
+    <div class="row" data-matrix-loop="true" data-matrix-column="2" data-matrix-maxcnt="4">
+      <div class="col-xs-12 col-sm-6 col-md-6 item">
+        <div class="line" data-selector=".line" data-border="true" data-title="선 컬러">
+          <div class="ico col-xs-2 col-sm-2 col-md-2" style="width: 50px;"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 512">
+              <path fill="#B197FC"
+                d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L550.2 352H592c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H516h-4-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48H48c-26.5 0-48 21.5-48 48V304c0 26.5 21.5 48 48 48H156.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123z" />
+            </svg></div>
+          <div class="cl_caption col-xs-10 col-sm-10 col-md-10" data-selector=".cl_caption" data-edit="true">
+            <div style="line-height: 1.9;"><span
+                style="font-family: 'Noto Sans KR'; font-weight: 500; font-size: 24px; color: rgb(98, 106, 110)"
+                class="fsize24">Simple</span></div>
+            <div style="line-height: 1;"><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110);"
+                class="fsize16">​</span><br></div>
+            <div><span style="font-family:'Noto Sans KR'; color: rgb(98, 106, 110); font-weight: 400; font-size: 14px;"
+                class="fsize14">One of the factors that determines the aesthetic level of an interface is its
+                composition. A good composition presents a simple solution that excludes unnecessary elements and
+                unimportant details.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 item">
+        <div class="line" data-selector=".line" data-border="true" data-title="선 컬러">
+          <div class="ico col-xs-2 col-sm-2 col-md-2" style="width: 50px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#B197FC" d="M290.8 48.6l78.4 29.7L288 109.5 206.8 78.3l78.4-29.7c1.8-.7 3.8-.7 5.7 0zM136 92.5V204.7c-1.3 .4-2.6 .8-3.9 1.3l-96 36.4C14.4 250.6 0 271.5 0 294.7V413.9c0 22.2 13.1 42.3 33.5 51.3l96 42.2c14.4 6.3 30.7 6.3 45.1 0L288 457.5l113.5 49.9c14.4 6.3 30.7 6.3 45.1 0l96-42.2c20.3-8.9 33.5-29.1 33.5-51.3V294.7c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-1.3-.5-2.6-.9-3.9-1.3V92.5c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-12.8-4.8-26.9-4.8-39.7 0l-96 36.4C150.4 48.4 136 69.3 136 92.5zM392 210.6l-82.4 31.2V152.6L392 121v89.6zM154.8 250.9l78.4 29.7L152 311.7 70.8 280.6l78.4-29.7c1.8-.7 3.8-.7 5.7 0zm18.8 204.4V354.8L256 323.2v95.9l-82.4 36.2zM421.2 250.9c1.8-.7 3.8-.7 5.7 0l78.4 29.7L424 311.7l-81.2-31.1 78.4-29.7zM523.2 421.2l-77.6 34.1V354.8L528 323.2v90.7c0 3.2-1.9 6-4.8 7.3z"/></svg></div>
+          <div class="cl_caption col-xs-10 col-sm-10 col-md-10" data-selector=".cl_caption" data-edit="true">
+            <div style="line-height: 1.9;"><span
+                style="font-family: 'Noto Sans KR'; font-weight: 500; font-size: 24px; color: rgb(98, 106, 110)"
+                class="fsize24">Block</span></div>
+            <div style="line-height: 1;"><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110);"
+                class="fsize16">​</span><br></div>
+            <div><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110); font-size: 14px;"
+                class="fsize14">Automated testing
+                is presented as a script generation process. For user's convenience and flawless interaction, script
+                writing composed as blocks. You can freely create a script using basic editing functions.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 item">
+        <div class="line" data-selector=".line" data-border="true" data-title="선 컬러">
+          <div class="ico col-xs-2 col-sm-2 col-md-2" style="width: 50px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#B197FC" d="M112 0C99.1 0 87.4 7.8 82.5 19.7l-66.7 160-13.3 32c-6.8 16.3 .9 35 17.2 41.8s35-.9 41.8-17.2L66.7 224h90.7l5.1 12.3c6.8 16.3 25.5 24 41.8 17.2s24-25.5 17.2-41.8l-13.3-32-66.7-160C136.6 7.8 124.9 0 112 0zm18.7 160H93.3L112 115.2 130.7 160zM256 32v96 96c0 17.7 14.3 32 32 32h80c44.2 0 80-35.8 80-80c0-23.1-9.8-43.8-25.4-58.4c6-11.2 9.4-24 9.4-37.6c0-44.2-35.8-80-80-80H288c-17.7 0-32 14.3-32 32zm96 64H320V64h32c8.8 0 16 7.2 16 16s-7.2 16-16 16zm-32 64h32 16c8.8 0 16 7.2 16 16s-7.2 16-16 16H320V160zM566.6 310.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L352 434.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l192-192z"/></svg></div>
+          <div class="cl_caption col-xs-10 col-sm-10 col-md-10" data-selector=".cl_caption" data-edit="true">
+            <div style="line-height: 1.9;"><span
+                style="font-family: 'Noto Sans KR'; font-weight: 500; font-size: 24px; color: rgb(98, 106, 110)"
+                class="fsize24">Easy</span></div> 
+            <div style="line-height: 1;"><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110);"
+                class="fsize16">​</span><br></div>
+            <div><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110); font-size: 14px;"
+                class="fsize14">We provide online
+                problems checking and determinig steps that require changes. Habit yourself for smooth and easy
+                codeless script writing.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 item">
+        <div class="line" data-selector=".line" data-border="true" data-title="선 컬러">
+          <div class="ico col-xs-2 col-sm-2 col-md-2" style="width: 50px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="#B197FC" d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 352h8.2c32.3-39.1 81.1-64 135.8-64c5.4 0 10.7 .2 16 .7V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM320 352H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H360.2C335.1 449.6 320 410.5 320 368c0-5.4 .2-10.7 .7-16l-.7 0zm320 16a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM496 288c8.8 0 16 7.2 16 16v48h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H496c-8.8 0-16-7.2-16-16V304c0-8.8 7.2-16 16-16z"/></svg></div>
+          <div class="cl_caption col-xs-10 col-sm-10 col-md-10" data-selector=".cl_caption" data-edit="true">
+            <div style="line-height: 1.9;"><span
+                style="font-family: 'Noto Sans KR'; font-weight: 500; font-size: 24px; color: rgb(98, 106, 110)"
+                class="fsize24">Fast</span></div>
+            <div style="line-height: 1;"><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110); "
+                class="fsize16">​</span><br></div>
+            <div><span style="font-family: 'Noto Sans KR'; color: rgb(98, 106, 110); font-size: 14px;"
+                class="fsize14">For automated
+                tests, try creating a one-script structure for multiple devices connected in parallel mode. TestForte
+                allows you to create and configure a script easily and quickly.</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+ <!-- Ccommon block -->
+ <div data-case="contents81" class="userEL16268843">
+  <div class="container">
+    <div class="row text-center" data-matrix-loop="true" data-matrix-column="3">
+
+      <div class="col-xs-12 col-sm-4 col-md-4 item">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img
+            src="./images/image-291.png"
+            class="img-responsive" data-attach="true" data-fixedsize="true" data-fixed-width="200"
+            style="width: 200px;" alt="MARKET.png">
+        </div>
+        <div class="text-box cl_caption" data-selector=".cl_caption" data-edit="true">
+          <div><span class="fsize16"><span
+                style="font-family: 'Noto Sans KR'; color: rgb(82, 82, 82); font-weight: 700; font-size: 16px;">Learn</span></span>
+          </div>
+         
+          <div><span class="fsize16"><br></span></div>
+          <div style="line-height: 1.75;"><span
+              style="color: rgb(0, 0, 0); font-family: 'Noto Sans KR'; font-size: 15px;"><span
+                class="fsize15">TestForte provides newly come users with an educational platform that allows anyone to
+                understand all the SDKs and tools provided by the testing service through a series of tutorial
+                topics.</span></span></div>
+          <div style="line-height:1;"><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​</span></span><br></div>
+          <div style="line-height:1;"><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​</span></span><br></div>
+          <div>‌<button class="custom-btn btn-3"><span>Learn More</span></button></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 item">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img
+            src="./images/smartphones.jpg"
+            class="img-responsive" data-attach="true" data-fixedsize="true" data-fixed-width="200"
+            style="width: 200px; padding: 10px 0;" alt="smartphone-with-ux-ui-icons-vector.jpg">
+        </div>
+        <div class="text-box cl_caption" data-selector=".cl_caption" data-edit="true">
+          <div><span class="fsize16"><span
+                style="font-family: 'Noto Sans KR'; color: rgb(82, 82, 82); font-weight: 700; font-size: 16px;">Test</span></span>
+          </div>
+          
+          <div style="line-height:1;"><span style="color: rgb(145, 145, 145); font-family: 'Noto Sans KR';"><span
+                class="fsize16"><br></span></span></div>
+          <div style="line-height: 1.75;"><span
+              style="color: rgb(0, 0, 0); font-family: 'Noto Sans KR'; font-size: 15px;"><span class="fsize15">Don't
+                have a device to test your app on? Test your apps on modern mobile devices in our Remote
+                TestHub.</span></span></div>
+          <div><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​​​</span></span><br></div>
+          <div><br></div>
+          <div><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​​</span></span><br></div>
+          <div>‌<button class="custom-btn btn-3"><span>Test</span></button></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 item">
+        <div class="img-wrapper d-flex justify-content-center">
+          <img
+            src="./images/digital-marketing-slide-uxb.png"
+            class="img-responsive" data-attach="true" data-fixedsize="true" data-fixed-width="200"
+            style="width: 200px; padding: 30px 0;" data-storage="free">
+        </div>
+        <div class="text-box cl_caption" data-selector=".cl_caption" data-edit="true">
+          <div><span class="fsize16"><span
+                style="font-family: 'Noto Sans KR'; color: rgb(82, 82, 82); font-weight: 700; font-size: 16px;">Support</span></span>
+          </div>
+          
+          <div style="line-height:1;"><span style="color: rgb(145, 145, 145);"><span
+                style="font-family: Dosis, 'Noto Sans KR';" class="fsize16"><br></span></span></div>
+          <div style="line-height: 1.75;"><span
+              style="color: rgb(0, 0, 0); font-family: 'Noto Sans KR'; font-size: 15px;"><span class="fsize15">Need
+                developer or technical support? Log in to your TestForte account to submit aa inquiry and our team
+                will respond you within 1 business day.</span></span></div>
+          <div><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​</span></span><br></div>
+          <div><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​​</span></span><br></div>
+          <div><span style="color: rgb(0, 0, 0); font-family: 'Nanum Gothic';"><span
+                class="fsize15">​</span></span><br></div>
+          <div>‌<button class="custom-btn btn-3"><span>See More</span></button></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div data-case="text96" class="userEL16248047">
+    <div class="container">
+      <div class="row" data-leftright="true">
+
+        <div class="col-xs-12 col-sm-3 col-md-3 txt-column">
+          <div class="head_title" data-edit="true" data-selector=".head_title">
+            <div><span style="color: rgb(86, 86, 86);"><span class="fsize14"><span
+                    style="font-family: 'Nanum Myeongjo'; color: rgb(255, 255, 255);"><strong>TestForte</strong></span></span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-9 col-md-9 no-padding txt-column" data-matrix-loop="true" data-matrix-column="3">
+          <div class="col-xs-12 col-sm-4 col-md-4 item">
+            <div class="text" data-edit="true" data-selector="div.text"></div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 item">
+            <div class="text" data-edit="true" data-selector="div.text">
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">Documentation</span></span></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">​</span></span><br></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">License</span></span></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">​</span></span><br></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">Support</span></span></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">​</span></span><br></span></div>
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">Privacy and Cookie Policy</span></span></span></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 item">
+            <div class="text" data-edit="true" data-selector="div.text">
+              <div><span style="color: rgb(255, 255, 255);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">4335 Onycom building, 21 Dutobbauiro, Yongsang-gu,
+                      Seoul, Republic of Korea</span></span></span></div>
+              <div><span style="color: rgb(86, 86, 86);"><span class="fsize12"><span
+                      style="font-family: 'Nanum Barun Gothic';">​</span></span></span><br></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <svg style="display: none;">
+    <symbol id="arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1.5 8a.5.5 0 0 1 .5-.5h10.793L8.354 4.354a.5.5 0 1 1 .707-.707l4.5 4.5a.5.5 0 0 1 0 .707l-4.5 4.5a.5.5 0 1 1-.707-.707L12.793 8.5H2a.5.5 0 0 1-.5-.5z"/>
+    </symbol>
+  </svg>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.12.4/dist/js/bootstrap-select.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    document.getElementById('login-button').addEventListener('click', function () {
+      var loginSection = document.getElementById('login-section');
+      if (loginSection.style.display === 'none' || loginSection.style.display === '') {
+        loginSection.style.display = 'block';
+      } else {
+        loginSection.style.display = 'none';
+      }
+    });
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.nav-item.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+      }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+      });
+    });
+    $('#signup').click(function () {
+      $('.pinkbox').css('transform', 'translateX(80%)');
+      $('.signin').addClass('nodisplay');
+      $('.signup').removeClass('nodisplay');
+    });
+
+    $('#signin').click(function () {
+      $('.pinkbox').css('transform', 'translateX(0%)');
+      $('.signup').addClass('nodisplay');
+      $('.signin').removeClass('nodisplay');
+    });
+    // script.js
+    document.addEventListener('DOMContentLoaded', function () {
+      const loginIcon = document.getElementById('login-icon');
+      const loginSection = document.getElementById('login-section');
+      const backgroundOverlay = document.getElementById('background-overlay');
+      const closeButton = document.getElementById('close-button');
+
+      // Function to show the login section and overlay
+      function showLoginSection() {
+        loginSection.style.display = 'block';
+        backgroundOverlay.style.display = 'block';
+      }
+
+      // Function to hide the login section and overlay
+      function hideLoginSection() {
+        loginSection.style.display = 'none';
+        backgroundOverlay.style.display = 'none';
+      }
+
+      // Event listener for login icon button
+      loginIcon.addEventListener('click', showLoginSection);
+
+      // Event listener for close button
+      closeButton.addEventListener('click', hideLoginSection);
+
+      // Event listener for clicking outside the login section
+      backgroundOverlay.addEventListener('click', hideLoginSection);
+    });
+
+  </script>
+ <style>
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .container-fluid {
+    padding: 0px 24px;
+    color: #212529;
+    text-shadow: 0.1px 0.1px;
+    font-size: 21px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar {
+
+    border-bottom: 1px solid #e9ecef;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #4c5258;
+    font-weight: bold;
+    
+    font-size: 16px;
+  }
+
+  .dropdown-menu {
+    width: 1250px !important;
+    height: 330px !important;
+    font-size: 18px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    padding: 0px 0px;
+
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .dropdown-parent-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img.dropdown-icon {
+    width: 25px;
+    /* Adjust the size as needed */
+    height: 25px;
+    /* Adjust the size as needed */
+    margin-right: 8px;
+    /* Space between icon and text */
+    align-content: center;
+    overflow: hidden;
+  }
+
+  .dropdown-item {
+    padding: 10px 30px;
+  }
+
+  .dropdown-menu a:hover {
+    background-color:  #E8F9FF;
+    color: #00aeef;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  img.dropdown-logo {
+    width: 185px;
+    height: auto;
+    margin-right: 8px;
+    align-content: center;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+
+  div>.dropdown-images-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#fef7ff;
+    padding: 0 20px;
+
+  }
+
+  .dropdown-images-item a:hover {
+    background-color: #fef7ff;
+    color:#fef7ff;
+    border-bottom: transparent 3px solid;
+  }
+
+  .dropdown-browsers-item a:hover {
+    background-color: transparent;
+    color: #00aeef;
+  } 
+
+  .browsers-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef7ff;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .col-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#fef7ff;
+    padding: 0 0px;
+  }
+
+  .col-4 {
+    padding-top: 12px;
+    padding-left: 0px;
+    padding-right: 0;
+  }
+
+  div>.col-4>.dropdown-browsers-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef7ff;
+  }
+
+  .navbar-right-items {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+  }
+
+  .dropdown-browsers-item-resources-right-side,
+  .resources-right-side {
+    background-color:#fef7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-8-resources-right-side,
+  .dropdown-images-item-resources {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fef7ff;
+    padding: 0 0px;
+  }
+
+  .col-4-resources-right-side,
+  #rsr-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#fef7ff;
+  }
+
+  .dropdown-images-item-resources a:hover {
+    background-color: #fef7ff;
+    color: #fef7ff;
+    border-bottom: transparent 3px solid;
+  }
+
+  .dropdown-developers-item,
+  .developers-side {
+    background-color: #fef7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-8-developers,
+  .dropdown-images-item-developers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fef7ff;
+    padding: 0 20px;
+  }
+
+  .dropdown-images-item-developers a:hover {
+    background-color: #fef7ff;
+    color: #fef7ff;
+    border-bottom: transparent 3px solid;
+  }
+</style>
+</body>
+
+</html>
